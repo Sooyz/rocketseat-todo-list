@@ -1,0 +1,36 @@
+.todoInputContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    gap: 0.5rem;
+    margin-top: -2rem;
+}
+
+.todoInputContainer input {
+    width: 100%;
+    background-color: var(--gray-500);
+    border: 1px solid var(--gray-700);
+    border-radius: 5px;
+    padding: 1rem;
+    color: var(--gray-300);
+}
+
+.todoInputContainer input:focus {
+    color: var(--gray-100);
+    border: 1px solid var(--purple-dark);
+}
+
+.todoInputContainer button {
+    background-color: var(--blue-dark);
+    color: var(--gray-100);
+    border: none;
+    border-radius: 8px;
+    padding: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-size: var(--text-size-md);
+    font-weight: bold;
+}
